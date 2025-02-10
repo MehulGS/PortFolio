@@ -16,10 +16,12 @@ import {
   figma,
   docker,
   meta,
+  rnw,
   carrent,
   jobit,
   tripguide,
   live,
+  swarrnim
 } from "../assets";
 
 export const navLinks = [
@@ -34,7 +36,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
+  }
 ];
 
 const services = [
@@ -109,18 +111,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full stack Developer",
-    company_name: "Swiftrut Technology",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Oct 2024 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  title: "MERN stack Development Course",
+  company_name: "Red and White MultiMedia",
+  icon: rnw,
+  iconBg: "#E6DEDD",
+  date: "May 2023 - July 2024",
+  points: [
+    "Developing and maintaining web applications using React.js and other related technologies.",
+    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    "Implementing responsive design and ensuring cross-browser compatibility.",
+    "Participating in code reviews and providing constructive feedback to other developers.",
+  ],
+},
+{
+  title: "BCA (Bachelor Of Computer Applications)",
+  company_name: "Swarrnim Startup & Innovation University",
+  icon: swarrnim,
+  iconBg: "#E6DEDD",
+  date: "June 2023 - Running",
+  points: [
+    "Database management using SQL and NoSQL databases such as MySQL and MongoDB.",
+    "Developing and maintaining web applications using HTML, CSS, JavaScript, and modern frameworks like React.js and Angular.",
+    "Understanding data structures and algorithms for efficient problem-solving and coding practices.",
+    "Cloud computing basics and working with platforms like AWS, Azure, and Google Cloud.",
+  ],
+},
+{
+  title: "Full stack Developer",
+  company_name: "Swiftrut Technology",
+  icon: meta,
+  iconBg: "#E6DEDD",
+  date: "Oct 2024 - Present",
+  points: [
+    "Developing and maintaining web applications using React.js and other related technologies.",
+    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    "Implementing responsive design and ensuring cross-browser compatibility.",
+    "Participating in code reviews and providing constructive feedback to other developers.",
+  ],
+},
 ];
 
 const testimonials = [
@@ -171,6 +199,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://schedulex-frontend-dot-nuxhealth-449518.el.r.appspot.com/",
+    type:"Live",
   },
   {
     name: "Air bnb Clone",
@@ -192,6 +221,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/MehulGS/AirClone",
+    type:"Github",
   },
   {
     name: "Trip Guide",
@@ -213,6 +243,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    type:"Github",
   },
 ];
 
