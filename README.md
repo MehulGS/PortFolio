@@ -82,14 +82,14 @@ Follow these steps to set up the project locally on your machine.
 
 Make sure you have the following installed on your machine:
 
-- [Git](https://git-scm.com/)
+- [Git](https://github.com/MehulGS/PortFolio)
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
+git clone git@github.com:MehulGS/PortFolio.git
 cd project_3D_developer_portfolio
 ```
 
@@ -100,6 +100,13 @@ Install the project dependencies using npm:
 ```bash
 npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 ```
+
+Run project command:
+
+```bash
+npm run dev
+```
+
 
 **Set Up Environment Variables**
 
