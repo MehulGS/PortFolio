@@ -21,7 +21,10 @@ import {
   jobit,
   tripguide,
   live,
-  swarrnim
+  swarrnim,
+  threejs,
+  wisume,
+  hms,
 } from "../assets";
 
 export const navLinks = [
@@ -96,6 +99,10 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -111,44 +118,44 @@ const technologies = [
 
 const experiences = [
   {
-  title: "MERN stack Development Course",
-  company_name: "Red and White MultiMedia",
-  icon: rnw,
-  iconBg: "#E6DEDD",
-  date: "May 2023 - July 2024",
-  points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
-  ],
-},
-{
-  title: "BCA (Bachelor Of Computer Applications)",
-  company_name: "Swarrnim Startup & Innovation University",
-  icon: swarrnim,
-  iconBg: "#E6DEDD",
-  date: "June 2023 - Running",
-  points: [
-    "Database management using SQL and NoSQL databases such as MySQL and MongoDB.",
-    "Developing and maintaining web applications using HTML, CSS, JavaScript, and modern frameworks like React.js and Angular.",
-    "Understanding data structures and algorithms for efficient problem-solving and coding practices.",
-    "Cloud computing basics and working with platforms like AWS, Azure, and Google Cloud.",
-  ],
-},
-{
-  title: "Full stack Developer",
-  company_name: "Swiftrut Technology",
-  icon: meta,
-  iconBg: "#E6DEDD",
-  date: "Oct 2024 - Present",
-  points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
-  ],
-},
+    title: "MERN stack Development Course",
+    company_name: "Red and White MultiMedia",
+    icon: rnw,
+    iconBg: "#E6DEDD",
+    date: "May 2023 - July 2024",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "BCA (Bachelor Of Computer Applications)",
+    company_name: "Swarrnim Startup & Innovation University",
+    icon: swarrnim,
+    iconBg: "#E6DEDD",
+    date: "June 2023 - Running",
+    points: [
+      "Database management using SQL and NoSQL databases such as MySQL and MongoDB.",
+      "Developing and maintaining web applications using HTML, CSS, JavaScript, and modern frameworks like React.js and Angular.",
+      "Understanding data structures and algorithms for efficient problem-solving and coding practices.",
+      "Cloud computing basics and working with platforms like AWS, Azure, and Google Cloud.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Swiftrut Technology",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Oct 2024 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -199,7 +206,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://schedulex-frontend-dot-nuxhealth-449518.el.r.appspot.com/",
-    type:"Live",
+    type: "Live",
   },
   {
     name: "Air bnb Clone",
@@ -221,29 +228,73 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/MehulGS/AirClone",
-    type:"Github",
+    type: "Github",
   },
   {
-    name: "Trip Guide",
+    name: "Vorranty",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
+      "All inclusive. Manage expenses, book travel, reimburse employees, create expense reports, and send invoices with OCR Feature which scan bills",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
     image: tripguide,
-    source_code_link: "https://github.com/",
-    type:"Github",
+    source_code_link: "https://voranty.vercel.app/",
+    type: "Live",
+  },
+  {
+    name: "Wisume",
+    description:
+      "Services include resume review and feedback, interview preparation tips, and career growth strategies.Count your ATS score here",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: wisume,
+    source_code_link: "https://project-wisume.web.app/",
+    type: "Live",
+  },
+  {
+    name: "NUXHealth",
+    description:
+      "Hospital Management System this webapplication helps patient to book there appointment.Doctor can also see how many appointent they have.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: hms,
+    source_code_link: "https://nuxhealth-frontend-dot-nuxhealth-449518.el.r.appspot.com/",
+    type: "Live",
   },
 ];
 

@@ -33,6 +33,8 @@ import swarrnim from "./company/swarrnim.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import wisume from "./wisume.png";
+import hms from "./NuxHealth.png";
 
 export {
   logo,
@@ -66,4 +68,6 @@ export {
   live,
   rnw,
   swarrnim,
+  wisume,
+  hms,
 };
