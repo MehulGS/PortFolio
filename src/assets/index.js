@@ -36,6 +36,7 @@ import tripguide from "./tripguide.png";
 import wisume from "./wisume.png";
 import hms from "./NuxHealth.png";
 import gamelo from "./gamelo.png";
+import sms from "./sms.png"
 
 export {
   logo,
@@ -72,4 +73,5 @@ export {
   wisume,
   hms,
   gamelo,
+  sms,
 };

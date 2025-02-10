@@ -26,6 +26,7 @@ import {
   wisume,
   hms,
   gamelo,
+  sms,
 } from "../assets";
 
 export const navLinks = [
@@ -276,6 +277,28 @@ const projects = [
     type: "Live",
   },
   {
+    name: "Wisume",
+    description:
+      "Services include resume review and feedback, interview preparation tips, and career growth strategies.Count your ATS score here",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: wisume,
+    source_code_link: "https://project-wisume.web.app/",
+    type: "Live",
+  },
+  {
     name: "NUXHealth",
     description:
       "Hospital Management System this webapplication helps patient to book there appointment.Doctor can also see how many appointent they have.",
@@ -317,6 +340,28 @@ const projects = [
       ],
     image: gamelo,
     source_code_link: "https://gamelo-frontend.vercel.app/",
+    type: "Live",
+  },
+  {
+    name: "Society Management",
+    description:
+      "Society Management System this web-application helps residents to get there residences detail.Secreatery can also see how many residence live in society.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: sms,
+    source_code_link: "https://neigborr-frontend-1-divyang-swiftruts-projects.vercel.app/",
     type: "Live",
   },
 ];
