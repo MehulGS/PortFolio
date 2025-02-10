@@ -35,6 +35,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import wisume from "./wisume.png";
 import hms from "./NuxHealth.png";
+import gamelo from "./gamelo.png";
 
 export {
   logo,
@@ -70,4 +71,5 @@ export {
   swarrnim,
   wisume,
   hms,
+  gamelo,
 };

@@ -25,6 +25,7 @@ import {
   threejs,
   wisume,
   hms,
+  gamelo,
 } from "../assets";
 
 export const navLinks = [
@@ -294,6 +295,28 @@ const projects = [
       ],
     image: hms,
     source_code_link: "https://nuxhealth-frontend-dot-nuxhealth-449518.el.r.appspot.com/",
+    type: "Live",
+  },
+  {
+    name: "Gamelo",
+    description:
+      "Gamezop, Quizzop, Newszop, and Astrozop. Our products entertain over 45 million users around the world every month!.This platform helps user to play many games online",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: gamelo,
+    source_code_link: "https://gamelo-frontend.vercel.app/",
     type: "Live",
   },
 ];
