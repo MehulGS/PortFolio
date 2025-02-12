@@ -27,6 +27,7 @@ import {
   hms,
   gamelo,
   sms,
+  interviewAI
 } from "../assets";
 
 export const navLinks = [
@@ -36,7 +37,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -150,7 +155,7 @@ const experiences = [
     company_name: "Swiftrut Technology",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Oct 2024 - Present",
+    date: "Oct 2024 - Feb 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -362,6 +367,28 @@ const projects = [
       ],
     image: sms,
     source_code_link: "https://neigborr-frontend-1-divyang-swiftruts-projects.vercel.app/",
+    type: "Live",
+  },
+  {
+    name: "Interview AI",
+    description:
+      "Interview AI System this web-application helps user to get schedul there interview with AI or expert coach.In this web -application user can prepare there resume also.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: interviewAI,
+    source_code_link: "https://interview-ai-frontend-0ogz.onrender.com/",
     type: "Live",
   },
 ];

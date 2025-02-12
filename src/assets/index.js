@@ -37,6 +37,7 @@ import wisume from "./wisume.png";
 import hms from "./NuxHealth.png";
 import gamelo from "./gamelo.png";
 import sms from "./sms.png"
+import interviewAI from "./interviewAI.png"
 
 export {
   logo,
@@ -74,4 +75,5 @@ export {
   hms,
   gamelo,
   sms,
+  interviewAI
 };
