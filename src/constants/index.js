@@ -216,26 +216,26 @@ const projects = [
     type: "Live",
   },
   {
-    name: "Air bnb Clone",
+    name: "Wisume",
     description:
-      "Web-based platform that allows users to search, book, and manage Hotel rentals from various providers, providing a convenient and efficient solution for staying needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/MehulGS/AirClone",
-    type: "Github",
+      "Services include resume review and feedback, interview preparation tips, and career growth strategies.Count your ATS score here",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: wisume,
+    source_code_link: "https://project-wisume.web.app/",
+    type: "Live",
   },
   {
     name: "Vorranty",
@@ -260,26 +260,26 @@ const projects = [
     type: "Live",
   },
   {
-    name: "Wisume",
+    name: "Air bnb Clone",
     description:
-      "Services include resume review and feedback, interview preparation tips, and career growth strategies.Count your ATS score here",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-    image: wisume,
-    source_code_link: "https://project-wisume.web.app/",
-    type: "Live",
+      "Web-based platform that allows users to search, book, and manage Hotel rentals from various providers, providing a convenient and efficient solution for staying needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/MehulGS/AirClone",
+    type: "Github",
   },
   {
     name: "NUXHealth",
