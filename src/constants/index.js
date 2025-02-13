@@ -282,28 +282,6 @@ const projects = [
     type: "Live",
   },
   {
-    name: "Wisume",
-    description:
-      "Services include resume review and feedback, interview preparation tips, and career growth strategies.Count your ATS score here",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-    image: wisume,
-    source_code_link: "https://project-wisume.web.app/",
-    type: "Live",
-  },
-  {
     name: "NUXHealth",
     description:
       "Hospital Management System this webapplication helps patient to book there appointment.Doctor can also see how many appointent they have.",
