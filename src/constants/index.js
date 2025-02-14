@@ -27,7 +27,8 @@ import {
   hms,
   gamelo,
   sms,
-  interviewAI
+  interviewAI,
+  invoices
 } from "../assets";
 
 export const navLinks = [
@@ -369,6 +370,29 @@ const projects = [
     source_code_link: "https://interview-ai-frontend-0ogz.onrender.com/",
     type: "Live",
   },
+  {
+    name: "Invoices",
+    description:
+      "Invoices this web-application helps user to get genrate there invoices and maintain customer detail.In this web -application user can make there company portfolio.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: invoices,
+    source_code_link: "https://invoice-frountend-live.vercel.app/",
+    type: "Live",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
