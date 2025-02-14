@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
-import { logo } from "../assets";
+import { logo, github,linkedin,instagram } from "../assets";
 
 const Footer = () => {
   return (
@@ -12,6 +12,17 @@ const Footer = () => {
           <p className="text-[18px] font-bold cursor-pointer">
             Mehul &nbsp; <span className="sm:block hidden">| MERN Stack Developer</span>
           </p>
+        </div>
+        <div className="flex gap-4 mt-4 md:mt-0">
+          <a href="https://github.com/MehulGS" target="_blank" rel="noopener noreferrer">
+            <img src={github} alt="GitHub" className="w-6 h-6 hover:opacity-80 transition-opacity" />
+          </a>
+          <a href="https://www.linkedin.com/in/mehul-gupta-30855a291/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedin} alt="LinkedIn" className="w-6 h-6 hover:opacity-80 transition-opacity" />
+          </a>
+          <a href="https://www.instagram.com/mehulgupta13.6?igsh=bzM5dW54azQ2d2Fo" target="_blank" rel="noopener noreferrer">
+            <img src={instagram} alt="Instagram" className="w-6 h-6 hover:opacity-80 transition-opacity" />
+          </a>
         </div>
       </div>
       <hr className="border-gray-600 my-4" />
