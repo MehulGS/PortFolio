@@ -17,7 +17,7 @@ const Footer = () => {
           <a href="https://github.com/MehulGS" target="_blank" rel="noopener noreferrer">
             <img src={github} alt="GitHub" className="w-6 h-6 hover:opacity-80 transition-opacity" />
           </a>
-          <a href="https://www.linkedin.com/in/mehul-gupta-30855a291/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/gupta-mehul-30855a291/" target="_blank" rel="noopener noreferrer">
             <img src={linkedin} alt="LinkedIn" className="w-6 h-6 hover:opacity-80 transition-opacity" />
           </a>
           <a href="https://www.instagram.com/mehulgupta13.6?igsh=bzM5dW54azQ2d2Fo" target="_blank" rel="noopener noreferrer">
