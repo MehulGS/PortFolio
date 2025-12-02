@@ -28,7 +28,8 @@ import {
   gamelo,
   sms,
   interviewAI,
-  invoices
+  invoices,
+  Aum_Logo
 } from "../assets";
 
 export const navLinks = [
@@ -130,11 +131,25 @@ const technologies = [
 
 const experiences = [
   {
+    title: "MERN stack Developer",
+    company_name: "AUM Industries",
+    icon: Aum_Logo,
+    iconBg: "#E6DEDD",
+    date: "April 2025 - Working",
+    points: [
+      "Building scalable and secure web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
+      "Integrating RESTful APIs and optimizing backend performance to enhance system efficiency.",
+      "Collaborating closely with UI/UX teams and product stakeholders to deliver user-centric features.",
+      "Implementing reusable components and optimizing client-side rendering for improved loading performance.",
+    ]
+
+  },
+  {
     title: "Full stack Developer",
     company_name: "Swiftrut Technology",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Oct 2024 - Feb 2025",
+    date: "June 2024 - May 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

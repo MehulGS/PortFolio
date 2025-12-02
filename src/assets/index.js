@@ -31,6 +31,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import rnw from "./company/rnw.png";
 import swarrnim from "./company/swarrnim.png";
+import Aum_Logo from "./company/Aum_Logo.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -81,5 +82,6 @@ export {
   interviewAI,
   invoices,
   linkedin,
-  instagram
+  instagram,
+  Aum_Logo
 };
