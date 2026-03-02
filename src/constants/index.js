@@ -149,7 +149,7 @@ const experiences = [
     company_name: "Swiftrut Technology",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "June 2024 - May 2025",
+    date: "May 2024 - April 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
