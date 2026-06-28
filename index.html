@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Primary Meta Tags -->
-  <title>Mehul Gupta | MERN Stack Developer | Full Stack Engineer</title>
+  <title>Mehul Gupta - MERN Stack Developer | React.js | Node.js | Full Stack Developer</title>
   <meta name="description"
     content="Mehul Gupta is a MERN Stack Developer specializing in full-stack web development, React, Node.js, MongoDB, and 3D web experiences. Explore portfolio, projects, skills, and contact for collaboration." />
   <meta name="keywords"
@@ -19,7 +19,7 @@
   <link rel="canonical" href="https://mehulgupta.vercel.app/" />
 
   <!-- Google Site Verification -->
-
+  <meta name="google-site-verification" content="EmMi9hsaRvwdQDNGHgIIaI0DCdqpuuZKUDBJ-7tNh98" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
@@ -48,22 +48,50 @@
   <div id="root"></div>
 
   <!-- Schema Markup: Person + Website + Social Profiles -->
+  
   <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
       "@type": "Person",
+      "@id": "https://mehulgupta.vercel.app/#person",
       "name": "Mehul Gupta",
       "url": "https://mehulgupta.vercel.app/",
       "image": "https://mehulgupta.vercel.app/profile.png",
-      "jobTitle": "Full Stack Developer",
-      "description": "MERN Stack Developer specializing in React, Node.js, Express, MongoDB, and 3D web experiences.",
+      "jobTitle": "MERN Stack Developer",
+      "description": "MERN Stack Developer specializing in React.js, Node.js, Express.js, MongoDB, and Full Stack Web Development.",
       "sameAs": [
-        "https://www.linkedin.com/in/mehulguptaji/",
         "https://github.com/MehulGS",
+        "https://www.linkedin.com/in/mehulguptaji/",
         "https://x.com/MehulGupta30913",
-        "https://www.instagram.com/mehulgupta13.6"
+        "https://www.instagram.com/mehulgupta13.6/"
       ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mehulgupta.vercel.app/#website",
+      "url": "https://mehulgupta.vercel.app/",
+      "name": "Mehul Gupta Portfolio",
+      "publisher": {
+        "@id": "https://mehulgupta.vercel.app/#person"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://mehulgupta.vercel.app/#webpage",
+      "url": "https://mehulgupta.vercel.app/",
+      "name": "Mehul Gupta | MERN Stack Developer",
+      "isPartOf": {
+        "@id": "https://mehulgupta.vercel.app/#website"
+      },
+      "about": {
+        "@id": "https://mehulgupta.vercel.app/#person"
+      },
+      "description": "Portfolio of Mehul Gupta, a MERN Stack Developer showcasing projects, skills, and experience."
     }
+  ]
+}
   </script>
 
   <script type="module" src="/src/main.jsx"></script>
